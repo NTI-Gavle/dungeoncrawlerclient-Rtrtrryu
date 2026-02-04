@@ -21,6 +21,7 @@ namespace DungeonCrawlerClient
                 Console.WriteLine("Could not connect to server.");
             }
 
+
             while (tcpClient.Connected)
             {
                 byte[] bytes = new byte[1024];
